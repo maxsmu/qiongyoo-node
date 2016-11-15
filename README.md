@@ -1,2 +1,17 @@
 # qiongyoo-node
-qiongyoo
+
+## 目录结构
+```
+├── app.js //程序入口
+├── config //配置目录
+├── controller //控制器
+├── interceptor //拦截器
+├── mock //模拟数据
+├── model //数据库
+├── package.json
+├── readme.md
+├── router //前端路由
+├── service //第三方服务
+├── test // 测试
+└── utils //工具
+```
