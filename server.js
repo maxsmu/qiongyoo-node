@@ -27,7 +27,13 @@ app.set('view engine', 'jade');
 
 app.get('/', (request, response) => {
 	response.render('pages/index', {
-		title: '首页'
+		title: '首页',
+		movies: [
+			{
+				_id: 12,
+				title: '111'
+			}
+		]
 	});
 });
 
